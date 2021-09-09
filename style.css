@@ -1,0 +1,95 @@
+body{
+    background-image: url(https://agencialyon.com.br/wp-content/uploads/2017/02/fundo-sites.jpg);
+    padding: 10px;
+    font-family: verdana;
+    margin: auto;
+}
+
+.post_title {
+    font-size: 30px
+    font-style: italic
+    border: 3px solid black;
+background: rgb(255, 146, 44);
+margin: 10px 750px 5px -2px;
+
+
+}
+
+.subtitle{
+    color:rgb(0, 0, 0);
+    font-size: 23px;
+font-style: italic;
+border: 5px solid rgb(0, 0, 0);
+background: rgb(247, 247, 247);
+margin: 15px 5px 0 -2px;
+padding: 3px;
+}
+
+.post{
+    border: 10px solid black;
+    margin: 30px 5px;
+    max-width: 780px;
+}
+
+.site{
+    font-size: 30px
+    font-style: italic
+    border: 3px solid black;
+background: rgb(255, 146, 44);
+margin: 30px 350px 15px 2px;
+
+
+}
+
+.title{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.name-image{
+    padding: 0;
+    margin: -10px 0 0 2px;
+    text-decoration: underline;
+}
+
+.text_final{
+    color:rgb(0, 0, 0);
+    font-size: 23px;
+    font-style: italic;
+    margin: 15px 5px 0 -2px;
+padding: 3px;
+}
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    body {
+        width: 90%;
+    }
+}
+
+@media (max-width:650px) {
+    .subtitle {
+        width: 90%;
+    }
+}
+
+.subtitle {
+    margin: 30px 240wpx 15px 2px;
+
+}
+
+.post_title {
+    margin: 30px 10wpx 15px 2px;
+
+}
+
+.title {
+    margin: 30px 10wpx 15px 2px;
+
+}
+
+.botão {
+    width: 50%;
+    max-width: 50%;
+}
