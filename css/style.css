@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Poppins:wght@100&family=Roboto:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(255, 146, 44), yellow);
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabeçalho {
+    width: 100vw;
+    height: 7vw;
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(255, 146, 44) , yellow);
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    margin-left: 15px;
+    font-style: italic;
+}
+
+.post_title {
+    font-size: 30px;
+    font-style: italic;
+    border: 1px solid black;
+    background: rgb(255, 146, 44);
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Apresentação {
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.subtitle{
+    color:rgb(0, 0, 0);
+    font-size: 23px;
+font-style: italic;
+width: 90vw;
+height: 15vw;
+margin-left: 5px;
+border: 1px solid rgb(0, 0, 0);
+background: rgb(247, 247, 247);
+overflow-y: scroll;
+}
+
+.post{
+    border: 1px solid black;
+    margin: 30px 5px;
+    max-width: 780px;
+}
+
+.site{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-style: italic;
+    border: 1px solid black;
+    background: rgb(255, 146, 44);
+    width: 50vw;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.texto-site {
+    margin-left: 110px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagem {
+    border-radius: 5px;
+}
+
+.name-image{
+    padding: 0;
+    margin: 15px 0 10px 10px;
+    text-decoration: underline;
+}
+
+.lista-carros {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botão {
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+footer {
+    height: 10vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.text_final{
+    color: white;
+    font-size: 23px;
+    font-style: italic;
+    margin: 15px 5px 0 30px;
+}
+
+button {
+    border: 0;
+    width: 100px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
